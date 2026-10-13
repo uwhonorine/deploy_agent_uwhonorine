@@ -2,12 +2,14 @@
 
 `deploy_agent.sh` is a single menu-driven shell script that **deploys**, **runs** and **archives the logs** of the attendance tracker application. It also handles **Ctrl+C / Ctrl+Z** safely while a deployment is in progress.
 
-Repository name: `deploy_agent_uwhonorine>`
+Repository name: `deploy_agent_uwhonorine`
+
+Youtube Link:``
 
 ## Repository contents
 
 ```
-deploy_agent_<GitHubUsername>/
+deploy_agent_uwhonorine/
 ├── deploy_agent.sh      # the master script (deploy, run, archive + signal handling)
 ├── templates/           # the three unmodified source files
 │   ├── attendance_checker.py
